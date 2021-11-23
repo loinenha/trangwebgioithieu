@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header .heading {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color:rgb(255, 0, 0);
+    font-size: 45px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+#header .sub-heading {
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    font-style: italic;
+}
+
+#member-info {
+    padding-top: 200px;
+    padding-bottom: 700px;
+}
+
+#member-info .name {
+    font-family: monospace;
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.849);
+    text-transform: uppercase;
+    letter-spacing: 1.4;
+    /* padding-bottom: 800px; */
+}
+
+#member-info .member-img {
+    width: 250px;
+    margin: 50px;
+    border-radius: 30%;
+}
+
+#member-info .member-img:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
